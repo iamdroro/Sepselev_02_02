@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Sepselec_02_02</string>
+    <string name="con">Конвертер единиц
+информации</string>
+    <string name="enterlogin">Введите логин</string>
+    <string name="enterpass">Введите пароль</string>
+    <string name="Start">Начать</string>
+    <string name="entercount">Введите число</string>
+    <string name="bite">Байт</string>
+    <string name="kilobite">Килобайт</string>
+    <string name="result">Результат</string>
+    <string name="vuch">Вычислить</string>
+    <string name="changetype">Выбор едениц информации</string>
+    <string name="registration">Регистрация</string>
+    <string name="vved">Введенное число</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FirstActivity"
+    android:background="@color/blue"
+    android:layout_gravity="center"
+
+
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+
+        android:text="@string/con"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="50dp" />
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="210dp"
+        android:layout_gravity="center"
+        android:background="@drawable/mainimage"
+
+        tools:ignore="MissingConstraints"></ImageView>
+    <EditText
+        android:id="@+id/login"
+        android:text="@string/enterlogin"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/foredit"
+        android:layout_width="300dp"
+        android:layout_height="50dp"></EditText>
+    <EditText
+        android:id="@+id/pass"
+        android:text="@string/enterpass"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/foredit"
+        android:layout_width="300dp"
+        android:layout_height="50dp"></EditText>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/START"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="65dp"
+        android:layout_gravity="center"
+        android:hint="@string/Start"
+        android:textColorHint="@color/white"
+        android:background="@drawable/forebutton"
+       android:textSize="18dp"
+
+        tools:ignore="InvalidId">
+    </androidx.appcompat.widget.AppCompatButton>
+</LinearLayout>
